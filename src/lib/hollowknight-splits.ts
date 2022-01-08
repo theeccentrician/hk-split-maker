@@ -1,6 +1,6 @@
-import splits from "../asset/splits.txt";
+import splits from "../asset/hollowknight/splits.txt";
 import ddsplits from "../asset/dd-splits.json";
-import Icons from "../asset/icons/icons";
+import Icons from "../asset/hollowknight/icons/icons";
 
 const SPLITS_DEFINITIONS_REGEXP =
     /\[Description\("(?<description>.+)"\), ToolTip\("(?<tooltip>.+)"\)\]\s+(?<id>\w+),/g;
@@ -158,9 +158,3 @@ export function getIconURLs(): Map<string, string> {
   }
   return result;
 }
-
-// export async function getIconData(name: string): Promise<Map<string, string>> {
-//     assertIsIconClass(name);
-//     const icons = await Icons[name]();
-//     return new Map(Object.entries(icons));
-// }
