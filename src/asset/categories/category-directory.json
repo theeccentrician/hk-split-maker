@@ -643,5 +643,14 @@
                 "routeNotesURL": "https://pastebin.com/KWYVyfn7"
             }
         }
+    ],
+    "Death's Door": [
+        {
+            "fileName": "dd-any",
+            "displayName": "DEATH'S DOOR: Any%",
+            "data": {
+                "routeNotesURL": "https://pastebin.com/sfhSX8MY"
+            }
+        }
     ]
 }

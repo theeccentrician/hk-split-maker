@@ -226,6 +226,19 @@ export async function createSplitsXml(config: Config): Promise<string> {
       return { Split: autosplitId, };
     });
 
+  const AutoSplitterSettings = gameName === "Death's Door" ? [
+    { Start: 1, },
+    { Reset: 1, },
+    { Options: "", },
+    { Splits: autosplits, }
+  ] : [
+    { Ordered: boolRepr(ordered), },
+    { AutosplitEndRuns: boolRepr(endTriggeringAutosplit), },
+    { AutosplitStartRuns: config.startTriggeringAutosplit ?? "", },
+    { Splits: autosplits, }
+  ];
+
+
   return xml({
     Run: [
       { _attr: { version: "1.7.0", }, },
@@ -237,12 +250,7 @@ export async function createSplitsXml(config: Config): Promise<string> {
       { AttemptCount: "0", },
       { AttemptHistory: "", },
       { Segments: segments, },
-      { AutoSplitterSettings: [
-        { Ordered: boolRepr(ordered), },
-        { AutosplitEndRuns: boolRepr(endTriggeringAutosplit), },
-        { AutosplitStartRuns: config.startTriggeringAutosplit ?? "", },
-        { Splits: autosplits, }
-      ], }
+      { AutoSplitterSettings, }
     ],
   }, {
     declaration: true,

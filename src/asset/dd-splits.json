@@ -1,0 +1,771 @@
+{
+    "Splits": {
+        "Parent": [
+            {
+                "$": {
+                    "name": "Bosses",
+                    "text": "Bosses",
+                    "tip": "Splits when beating a boss"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "AIBrain__FORESTMOTHER_BOSS",
+                            "text": "Demonic Forest Spirit"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_redeemer_BOSS",
+                            "text": "Guardian of the Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_grandma",
+                            "text": "The Witch of Urns - Grandma"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_FROG_BOSS_FAT",
+                            "text": "King of the Swamp"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_betty_boss",
+                            "text": "Betty"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_old_crow_boss_fbx",
+                            "text": "The Grey Crow"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "AIBrain_BOSS_lord_of_doors NEW",
+                            "text": "The Last Lord"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Scenes",
+                    "text": "Levels",
+                    "tip": "Splits when entering a level for the first time"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Scene_lvl_Tutorial",
+                            "text": "The Grove of Spirits"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_Graveyard",
+                            "text": "Lost Cemetry"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvlConnect_Graveyard_Gardens",
+                            "text": "Crypt"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_GrandmaGardens",
+                            "text": "Estate of the Urn Witch"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_GrandmaMansion",
+                            "text": "Ceramic Manor"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_AVARICE_WAVES_Mansion",
+                            "text": "Avarice - Ceramic Manor"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvlConnect_Mansion_Basement",
+                            "text": "Furnace Observation Rooms"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_GrandmaBasement",
+                            "text": "Inner Furnace"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_boss_grandma",
+                            "text": "The Urn Witch's Laboratory"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_Forest",
+                            "text": "Overgrown Ruins"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_AVARICE_WAVES_Forest",
+                            "text": "Avarice - Overgrown Ruins"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_Swamp",
+                            "text": "Flooded Fortress"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_boss_frog",
+                            "text": "Throne of the Frog King"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvlconnect_graveyard_sailor",
+                            "text": "Cave"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_sailormountain",
+                            "text": "The Stranded Sailor"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_frozenfortress",
+                            "text": "Castle Lockstone"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_AVARICE_WAVES_Fortress",
+                            "text": "Avarice - Castle Lockstone"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvlConnect_Fortress_Mountaintops",
+                            "text": "Camp of the Free Crows"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_mountaintops",
+                            "text": "The Old Watchtowers"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_boss_betty",
+                            "text": "Betty's Lair"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_OldCrowVoid",
+                            "text": "The Void"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Scene_lvl_HallOfDoors_BOSSFIGHT",
+                            "text": "Hall Of Doors - LoD Last Phase"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Doors",
+                    "text": "Doors",
+                    "tip": "Splits when unlocking a door"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_graveyard",
+                            "text": "Lost Cemetry Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_gardens",
+                            "text": "Estate of the Urn Witch Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_mansion",
+                            "text": "Ceramic Manor Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_basementromp",
+                            "text": "Inner Furnace Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_grandmaboss",
+                            "text": "The Urn Witch's Laboratory Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_forest",
+                            "text": "Overgrown Ruins Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_forest_dung",
+                            "text": "Mushroom Dungeon Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_swamp",
+                            "text": "Flooded Fortress Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_frogboss",
+                            "text": "Throne of the Frog King Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_sailor",
+                            "text": "The Stranded Sailor Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_fortress",
+                            "text": "Castle Lockstone Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_covenant",
+                            "text": "Camp of the Free Crows Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_mountaintops",
+                            "text": "The Old Watchtowers Door"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_sdoor_betty",
+                            "text": "Betty's Lair Door"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Spells",
+                    "text": "Spells",
+                    "tip": "Splits when unlocking or upgrading a spell"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_upgraded_arrows",
+                            "text": "Arrow Upgrade"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_gift_fire",
+                            "text": "Flame Spell"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_upgraded_fire",
+                            "text": "Flame Upgrade"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_gift_bomb",
+                            "text": "Bomb Spell"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_upgraded_bombs",
+                            "text": "Bomb Upgrade"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_gift_hookshot",
+                            "text": "Hookshot Spell"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_upgraded_hookshot",
+                            "text": "Hookshot Upgrade"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Truth",
+                    "text": "Ancient Tablets of Knowledge",
+                    "tip": "Splits when grabbing a tablet of knowledge"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_1",
+                            "text": "Jefferson Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_2",
+                            "text": "Avarice Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_3",
+                            "text": "Seeds Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_4",
+                            "text": "Ghosts Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_5",
+                            "text": "Flames Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_6",
+                            "text": "Gravedigger Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_truthtablet_7",
+                            "text": "Owls Tablet"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "TruthEnding",
+                            "text": "Truth Ending"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Weapons",
+                    "text": "Weapons",
+                    "tip": "Splits when unlocking a weapon"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_drop_hammer",
+                            "text": "Thunder Hammer"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_daggers",
+                            "text": "Rogue Daggers"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_sword_heavy",
+                            "text": "Reaper's Greatsword"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_umbrella",
+                            "text": "Discarded Umbrella"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Shrines",
+                    "text": "Shrines",
+                    "tip": "Splits when activating a shrine"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_shrine_graveyardturncam",
+                            "text": "Lost Cemetry Vitality Shrine (Turn Cam)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_graveyardhookshot",
+                            "text": "Lost Cemetry Vitality Shrine (Hookshot)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_graveyardbomb",
+                            "text": "Lost Cemetry Magic Shrine (Bomb)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_gardenturncam",
+                            "text": "Estate of the Urn Witch Door Magic Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_gardendrop",
+                            "text": "Estate of the Urn Witch Door Vitality Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_mansionreflection",
+                            "text": "Ceramic Manor Magic Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_basement",
+                            "text": "Inner Furnace Vitality Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_forestsewer",
+                            "text": "Overgrown Ruins Vitality Shrine (Sewer)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_forestturncam",
+                            "text": "Overgrown Ruins Magic Shrine (Turn Cam)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_foresthookshot",
+                            "text": "Overgrown Ruins Magic Shrine (Hookshot)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_dungeonbomb",
+                            "text": "Mushroom Dungeon Vitality Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_swamp",
+                            "text": "Flooded Fortress Magic Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_sailorturncam",
+                            "text": "The Stranded Sailor Magic Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_sailorhookshot",
+                            "text": "The Stranded Sailor Vitality Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_icechallenge",
+                            "text": "The Stranded Sailor Vitality Shrine"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_shrine_fortress",
+                            "text": "Castle Lockstone Magic Shrine"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "Trinkets",
+                    "text": "Shiny Things",
+                    "tip": "Splits when grabbing a shiny thing"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_soulkey",
+                            "text": "Makeshift Soul Key"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_flower",
+                            "text": "Undying Blossom"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_incense",
+                            "text": "Incense"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_compass",
+                            "text": "Old Compass"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_elixir",
+                            "text": "Sludge-Filled Urn"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_trowel",
+                            "text": "Rusty Garden Trowel"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_ring",
+                            "text": "Old Engagement Ring"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_photo",
+                            "text": "Old Photograph"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_basoon",
+                            "text": "Magical Forest Horn"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_seed",
+                            "text": "Malformed Seed"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_antler",
+                            "text": "Corrupted Antler"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_arrow",
+                            "text": "Giant Arrowhead"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_coin",
+                            "text": "Token of Death"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_journal",
+                            "text": "Captain's Log"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_mask",
+                            "text": "Grunt's Old Mask"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_teddy",
+                            "text": "Ink-Covered Teddy Bear"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_medal",
+                            "text": "Shiny Medallion"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_locket",
+                            "text": "Mysterious Locket"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_crown",
+                            "text": "Ancient Crown"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_contract",
+                            "text": "Death Contract"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_door_old",
+                            "text": "Ancient Door Scale Model"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_surv",
+                            "text": "Surveillance Device"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_door_new",
+                            "text": "Modern Door Scale Model"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_drop_trinket_rusty_key",
+                            "text": "Rusty Belltower Key"
+                        }
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "name": "CrowSouls",
+                    "text": "Crow Souls",
+                    "tip": "Splits when freeing a crow soul"
+                },
+                "Split": [
+                    {
+                        "$": {
+                            "name": "Bool_mansion_crow_soul1",
+                            "text": "Ceramic Manor Soul 1 (Bottom)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_mansion_crow_soul2",
+                            "text": "Ceramic Manor Soul 2 (Big Pot)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_mansion_crow_soul3",
+                            "text": "Ceramic Manor Soul 3 (Right)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_mansion_crow_soul4",
+                            "text": "Ceramic Manor Soul 4 (Left)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_dungeon_crow_soul1",
+                            "text": "Mushroom Dungeon Soul 1 (Bottom)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_dungeon_crow_soul2",
+                            "text": "Mushroom Dungeon Soul 2 (Right)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_dungeon_crow_soul3",
+                            "text": "Mushroom Dungeon Soul 3 (Top)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_dungeon_crow_soul4",
+                            "text": "Mushroom Dungeon Soul 4 (Left)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_fortress_crow_soul1",
+                            "text": "Castle Lockstone Soul 1 (Top)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_fortress_crow_soul2",
+                            "text": "Castle Lockstone Soul 2 (Left)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_fortress_crow_soul3",
+                            "text": "Castle Lockstone Soul 3 (Left Door)"
+                        }
+                    },
+                    {
+                        "$": {
+                            "name": "Bool_fortress_crow_soul4",
+                            "text": "Castle Lockstone Soul 4 (Bottom)"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

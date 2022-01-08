@@ -1,7 +1,7 @@
 import splits from "../asset/splits.txt";
+import ddsplits from "../asset/dd-splits.json";
 import Icons from "../asset/icons/icons";
 
-// const SPLITS_DEFINITIONS_FILE = "./asset/splits.txt";
 const SPLITS_DEFINITIONS_REGEXP =
     /\[Description\("(?<description>.+)"\), ToolTip\("(?<tooltip>.+)"\)\]\s+(?<id>\w+),/g;
 export const DESCRIPTION_NAME_REGEXP = /(?<name>.+)\s+\((?<qualifier>.+)\)/;
@@ -12,6 +12,25 @@ export interface SplitDefinition {
   id: string;
   name: string;
   group: string;
+}
+
+function parseDDSplitsDefinitions(): Map<string, SplitDefinition> {
+  const splitMap = new Map<string, SplitDefinition>();
+  for (const section of ddsplits.Splits.Parent) {
+    const { tip: tooltip, name: group, } = section.$;
+    for (const split of section.Split) {
+      const { name: id, text, } = split.$;
+      splitMap.set(id, {
+        description: `[DD] ${text}`,
+        tooltip,
+        id,
+        name: text,
+        group: `[DEATH'S DOOR] ${group}`,
+      });
+    }
+  }
+
+  return splitMap;
 }
 
 function getNameAndGroup({ description, id, }: Pick<SplitDefinition, "description"|"id">): [string, string] {
@@ -127,7 +146,9 @@ export function parseSplitsDefinitions(): Map<string, SplitDefinition> {
     });
   }
 
-  return definitions;
+  const ddDefinitions = parseDDSplitsDefinitions();
+
+  return new Map([...definitions, ...ddDefinitions]);
 }
 
 export function getIconURLs(): Map<string, string> {
