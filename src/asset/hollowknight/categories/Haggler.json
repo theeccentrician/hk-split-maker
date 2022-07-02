@@ -1,0 +1,51 @@
+{
+    "categoryName": "Haggler",
+    "splitIds": [
+        "-FalseKnight",
+        "-VengefulSpirit",
+        "-SoulCatcher",
+        "-MossKnight",
+        "-MothwingCloak",
+        "MantisClaw",
+        "-OnObtainWanderersJournal",
+        "-CityGateOpen",
+        "-OnObtainHallownestSeal",
+        "-OnObtainWanderersJournal",
+        "-BenchStorerooms",
+        "-SimpleKey",
+        "Lemm2",
+        "-RoyalWaterways",
+        "-DefendersCrest",
+        "-FungalWastesEntry",
+        "FragileStrength"
+    ],
+
+    "names": {
+    "MossKnight":"Moss Knight Arena",
+    "MantisClaw":"{Gear Up}Mantis Claw",
+    "CityGateOpen":"City Entry",
+    "BenchStorerooms":"Storerooms Stag/Bench",
+    "SimpleKey":"Storerooms Key",
+    "OnObtainWanderersJournal":[
+        "MV Journal",
+        "Storerooms Journal"
+        ],
+    "OnObtainHallownestSeal":"Rafters Seal",
+    "Lemm2":"{Get Rich}Lemm Shop",
+    "RoyalWaterways":"Waterways Entry",
+    "DefendersCrest":"DCrest/S&Q/Equip",
+    "FungalWastesEntry":"Leg Eater via Dirtmouth",
+    "FragileStrength":"{Haggle}Buy All Breakables"
+    },
+
+    "ordered": true,
+    "endTriggeringAutosplit": true,
+    "endingSplit": {
+        "name": "FragileStrength"
+    },
+
+    "gameName": "Hollow Knight Category Extensions",
+    "variables": {
+        "Any% Glitch": "No Major Glitches"
+    }
+}
